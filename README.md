@@ -1,6 +1,7 @@
 # Sistema de Tickets
 
-La aplicación genera tickets con un número para ser atendida por los asesores en cada uno de sus escritorios. El sistema despliega 4 tipos de vistas.
+Es una pequeña aplicacion de Ticket que sirve para organizar la atencion al cliente por los asesores
+El sistema tiene 4 tipos de vistas:
 
 **Home:** Despliega las opciones básicas de la aplicación:
  - Ir a Pantalla.
@@ -9,18 +10,18 @@ La aplicación genera tickets con un número para ser atendida por los asesores 
 
 **Pantalla:** Despliega el # del Ticket de llamado y el Escritorio donde será atendido el usuario así como otros turnos que van a ser atendidos.
 
-**Escritorio:** Despliega la interfaz de la persona que atiende al usuario poseedor del Ticket y le da la opción de hacer el llamado para atender al siguiente ticket.
+**Escritorio:** Despliega la interfaz de la persona que atiende al usuario y caso omiso puede atender los demas tickets disponibles.
 
-**Crear Ticket**: Despliega una interfaz para que el usuario solicite un turno que generará un número de Ticket.
+**Crear Ticket**: Despliega una interfaz para crear un nuevo Ticket.
 
 ## Instalación
-Primero debe descargar el repositorio, posterior a esto debe actualizar las dependencias del repositorio, así:
+Descargue el repositorio, luego ingresa en el proyecto y ejecute el siguiente comando:
 
 ```
 npm install
 ```
 
-Para ejecutar la aplicación lance el siguiente comando.
+Para ejecutar la aplicación ejecute el comando.
 ```
 node ./server/server
 ```
