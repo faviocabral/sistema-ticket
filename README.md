@@ -4,9 +4,9 @@ Es una pequeña aplicacion de Ticket que sirve para organizar la atencion al cli
 El sistema tiene 4 tipos de vistas:
 
 **Home:** Despliega las opciones básicas de la aplicación:
- - Ir a Pantalla.
- - Ir a Escritorio. 
- - Crear Ticket.
+ - Tablero.
+ - Escritorio. 
+ - Nuevo Ticket.
 
 **Pantalla:** Despliega el # del Ticket de llamado y el Escritorio donde será atendido el usuario así como otros turnos que van a ser atendidos.
 
